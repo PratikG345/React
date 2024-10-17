@@ -6,3 +6,11 @@ Types of Exports:
 
 2. Named - When we want to export multiple things from a file.
 syntax: export const name = "content"
+
+- Default Export/Import
+export default Component;
+import Component from path;
+
+- NamedExport/Import
+export const component;
+import {Component} from "path";

@@ -1,33 +1,3 @@
-import React, { useState } from "react";
-import ReactDom from "react-dom/client"; 
-
-const Heading = () =>{
-    return (
-        <div className="header">
-            <div className="image-container">
-            <img 
-            className="logo"
-            src="https://www.logodesign.net/logo/smoking-burger-with-lettuce-3624ld.png"/>
-        </div>
-
-        <div className="nav-items">
-            <ul>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Contact Us</li>
-                <li>Cart</li>
-            </ul>
-        </div>
-        </div>
-
-    )
-}
-
-const stylecard = {
-
-    backgroundColor: "#f0f0f0",
-};
-
 const resobj = 
   [
                   {
@@ -921,52 +891,4 @@ const resobj =
                     "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
                   }
                 ]
-// react does not recommend using index as keys
-// not using keys(not acceptable) <<<< using index as keys <<<< using unique id
-
-
-const RestaurantCard = (props) =>{
-  const {resData} = props;
-  const {name,cuisines,avgRating,locality,cloudinaryImageId} = resData?.info;
-  const {deliveryTime} = resData?.info.sla;
-
-  return(
-  <div className="res-card" style={stylecard}>
-      <div className="img-conntainer">
-          <img className="card-image" src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"+ cloudinaryImageId} alt="pizzahut"/>
-      </div>
-      <h3>{name}</h3>
-      <h4>{cuisines.join(", ")}</h4>
-      <h4>{deliveryTime} minutes</h4>
-      <h4>{avgRating}stars</h4>
-      <h5>{locality}</h5>
-
-  </div>
-  );
-}
-const Body = () => {
-  return (
-      <div className="body">
-          <div className="search">search</div>
-          <div className="res-container">
-              {
-                  resobj.map((restaurant) => (
-                      <RestaurantCard key={restaurant.info.id} resData={restaurant} />
-                  ))
-              }
-          </div>
-      </div>
-  );
-}
-
-const AppLayout = () =>{
-    return (
-    <div className="app">
-        <Heading/>
-        <Body/>
-    </div>
-    )
-}
-
-const root = ReactDom.createRoot(document.getElementById("root"));
-root.render(<AppLayout />)
+export default resobj;

@@ -8,7 +8,7 @@
     width: 120px;
 }
 .nav-items {
-    
+    padding: 0px 20px;
 }
 
 .nav-items > ul {
@@ -21,11 +21,26 @@
     padding: 10px;
     margin: 10px;
 }
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
 .res-card{
-    width: 200px;
-    height: 300px;
-    border: 1px solid black;
+    padding: 15px 15px;
+    width: 250px;
+    margin: 10px;
+
+}
+
+.res-card:hover{
+    border: 2px solid red;
+    cursor: pointer;
 }
 .search{
     padding: 10px;
+}
+.card-image{
+    width: 90%;
+    height: 160px;
+    padding: 5px;
 }

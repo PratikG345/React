@@ -11,7 +11,7 @@ const resobj =
                       "cuisines": [
                         "Pizzas"
                       ],
-                      "avgRating": 4.3,
+                      "avgRating": 3.8,
                       "parentId": "721",
                       "avgRatingString": "4.3",
                       "totalRatingsString": "8.3K+",
@@ -340,7 +340,7 @@ const resobj =
                       "cuisines": [
                         "Bakery"
                       ],
-                      "avgRating": 4.6,
+                      "avgRating": 3.8,
                       "parentId": "1040",
                       "avgRatingString": "4.6",
                       "totalRatingsString": "994",

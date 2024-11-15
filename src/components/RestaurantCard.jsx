@@ -5,7 +5,7 @@ const stylecard = {
 };
 const RestaurantCard = (props) =>{
     const {resData} = props;
-    const {name,cuisines,avgRating,locality,cloudinaryImageId} = resData?.info;
+    const {name,cuisines,avgRating,locality,cloudinaryImageId,costForTwo} = resData?.info;
     const {deliveryTime} = resData?.info.sla;
   
     return(
@@ -17,6 +17,7 @@ const RestaurantCard = (props) =>{
         <h4>{cuisines.join(", ")}</h4>
         <h4>{deliveryTime} minutes</h4>
         <h4>{avgRating}stars</h4>
+        <h4>{costForTwo}</h4>
         <h5>{locality}</h5>
   
     </div>

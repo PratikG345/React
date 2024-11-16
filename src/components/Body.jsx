@@ -27,7 +27,7 @@ const Body = () => {
                     </button>
 
                     <button 
-                className="filter-price"
+                className="filter-time"
                 onClick={()=>{
                     let filteredList = listOfRestaurants.filter(
                         (resData) => resData.info.sla.deliveryTime <= 25 
@@ -38,7 +38,22 @@ const Body = () => {
                 >
                     Under 25 minutes
                     </button>
+
+                    <button 
+                className="filter-price"
+                onClick={()=>{
+                    let filteredList = listOfRestaurants.filter(
+                        (resData) => resData.info.costForTwo <= 400 
+                     );
+                     setlistOfRestaurants(filteredList)
+                     
+                }}
+                >
+                    Under Rs.400
+                    </button>
+                    
             </div>
+            
             <div className="res-container">
                 {
                     listOfRestaurants.map((restaurant) => (

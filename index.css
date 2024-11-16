@@ -46,6 +46,11 @@
     padding: 5px;
     cursor: pointer;
 }
+.filter-time{
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
 .card-image{
     width: 90%;
     height: 160px;

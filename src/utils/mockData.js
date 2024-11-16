@@ -7,7 +7,7 @@ const resobj =
                       "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/17/6028eb63-2e65-4f77-85a8-ff251459340e_71010.jpg",
                       "locality": "Wadala Nashik East",
                       "areaName": "Ashoka Marg",
-                      "costForTwo": "₹350 for two",
+                      "costForTwo": 350,
                       "cuisines": [
                         "Pizzas"
                       ],
@@ -118,7 +118,7 @@ const resobj =
                       "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/5/d00fa641-c479-41e4-a60d-92343e4decfd_235624.JPG",
                       "locality": "Collage Road \n",
                       "areaName": "College Road",
-                      "costForTwo": "₹400 for two",
+                      "costForTwo": 400,
                       "cuisines": [
                         "Burgers",
                         "Fast Food",
@@ -218,7 +218,7 @@ const resobj =
                       "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/24/b14d42b7-8234-4fd5-930f-bfdc16ad26c7_69634.JPG",
                       "locality": "Hotel Satvik",
                       "areaName": "Nashik Road",
-                      "costForTwo": "₹700 for two",
+                      "costForTwo": 700,
                       "cuisines": [
                         "Pizzas",
                         "Italian",
@@ -336,7 +336,7 @@ const resobj =
                       "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/7/f8ba7d9e-af79-4779-b4cb-bb401b707596_278323.jpg",
                       "locality": "Ashoka Marg",
                       "areaName": "Dwarka",
-                      "costForTwo": "₹400 for two",
+                      "costForTwo": 400,
                       "cuisines": [
                         "Bakery"
                       ],
@@ -447,7 +447,7 @@ const resobj =
                       "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/16/0a5da956-cb86-488e-b417-1ed10c776816_185815.jpg",
                       "locality": "HATTE NAGAR",
                       "areaName": "THATTE NAGAR",
-                      "costForTwo": "₹300 for two",
+                      "costForTwo": 300,
                       "cuisines": [
                         "Biryani",
                         "North Indian",
@@ -551,7 +551,7 @@ const resobj =
                       "cloudinaryImageId": "hccqln3kaptyyazgjbrx",
                       "locality": "BYK College",
                       "areaName": "Krishi Nagar",
-                      "costForTwo": "₹500 for two",
+                      "costForTwo": 500,
                       "cuisines": [
                         "Pizzas",
                         "Pastas",
@@ -669,7 +669,7 @@ const resobj =
                       "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/18/1042923a-02cd-412d-bd15-6ff9f0a0fa76_104757.jpg",
                       "locality": "Shivaji Nagar",
                       "areaName": "Upnagar",
-                      "costForTwo": "₹400 for two",
+                      "costForTwo": 400,
                       "cuisines": [
                         "Burgers",
                         "Beverages",
@@ -782,7 +782,7 @@ const resobj =
                       "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/25/623ead00-f251-4582-be0f-1b07fa61cb54_672969.jpg",
                       "locality": "Patil Colony",
                       "areaName": "Nas_College Road",
-                      "costForTwo": "₹350 for two",
+                      "costForTwo": 350,
                       "cuisines": [
                         "Salads",
                         "Snacks",

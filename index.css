@@ -27,12 +27,13 @@
 }
 .res-card{
     padding: 15px 15px;
-    width: 250px;
+    width: 240px;
     margin: 10px;
 
 }
 
 .res-card:hover{
+    width: 250px;
     border: 2px solid red;
     cursor: pointer;
 }

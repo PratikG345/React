@@ -46,16 +46,10 @@
     margin: 10px;
     padding: 5px;
     cursor: pointer;
+    border: 1px solid rgb(47, 47, 47);
 }
-.filter-price{
-    margin: 10px;
-    padding: 5px;
-    cursor: pointer;
-}
-.filter-time{
-    margin: 10px;
-    padding: 5px;
-    cursor: pointer;
+.filter-btn:hover{
+    border: 2px solid rgb(242, 97, 97);
 }
 .card-image{
     width: 90%;
